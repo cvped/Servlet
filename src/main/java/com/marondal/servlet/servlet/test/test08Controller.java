@@ -3,10 +3,12 @@ package com.marondal.servlet.servlet.test;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+@WebServlet("/servlet/test08")
 public class test08Controller extends HttpServlet {
 
 	@Override

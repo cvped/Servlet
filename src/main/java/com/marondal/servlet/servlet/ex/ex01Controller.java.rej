@@ -1,0 +1,14 @@
+diff a/src/main/java/com/marondal/servlet/servlet/ex/ex01Controller.java b/src/main/java/com/marondal/servlet/servlet/ex/ex01Controller.java	(rejected hunks)
+@@ -2,4 +2,12 @@
+ 
+ public class ex01Controller {
+ 
++  	@Override
++	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
++		
++		PrintWriter out = response.getWriter();
++		
++		out.println("hello world!!");
++	}
++
+ }
