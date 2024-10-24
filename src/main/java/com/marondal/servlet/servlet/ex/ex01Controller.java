@@ -17,12 +17,4 @@ public class ex01Controller extends HttpServlet{
 		out.println("hello world!!");
 	}
 
-  	@Override
-	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-		
-		PrintWriter out = response.getWriter();
-		
-		out.println("hello world!!");
-	}
-
 }
